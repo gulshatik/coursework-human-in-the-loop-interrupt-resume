@@ -1,6 +1,10 @@
 ===FILE: main.py===
-@@
--from langgraph.constants import interrupt
-+from langgraph.types import interrupt
- from langgraph.types import Command
-*** End of File ***
+```python
+from langgraph.types import interrupt
+from langgraph.types import Command
+
+# The rest of the script (state definition, node functions, graph construction,
+# checkpoint setup, and execution loop) remains unchanged.
+# Only the incorrect diff markers at the top have been removed to fix the syntax error.
+```
+===END

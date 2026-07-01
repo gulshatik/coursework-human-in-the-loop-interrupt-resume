@@ -1,2 +1,2 @@
-langgraph==1.2.6
-questionary==1.10.0
+langgraph
+python-dotenv
